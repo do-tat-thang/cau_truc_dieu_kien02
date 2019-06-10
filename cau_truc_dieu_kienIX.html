@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt("So kWh"));
+    if (a<= 50){
+        tiendien = a*1.678;
+        alert ("tien dien la"+ tiendien);
+    }else if (a>50 && a <100) {
+        tiendien2 = a * 1.734;
+        alert("tien dien la " + tiendien2)
+    }else if (a>100 && a < 200){
+        tiendien3 = a*2.014;
+        alert ("tien dien la"+ tiendien3)
+    }else if (a>=200){
+        tiendien4 = a*2.536;
+        alert ("tien dien la"+ tiendien4)
+    }
+</script>
+</body>
+</html>
